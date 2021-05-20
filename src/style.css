@@ -21,7 +21,13 @@ body {
 h1:hover {
   color: green;
 }
+h3 {
+  color: green;
+}
 
+h3:hover {
+  color: #3b965c;
+}
 .navbar {
   overflow: hidden;
   background-color: #333;
@@ -108,7 +114,8 @@ h1:hover {
   text-align: justify;
 }
 .ingredients {
-  position: fixed;
+  text-align: center;
+  text-decoration: underline;
 }
 
 /* Float four columns side by side */
@@ -138,14 +145,14 @@ h1:hover {
 
 .card-coffecake {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 50px;
+  padding: 30px;
   text-align: left;
   background-color: #f1f1f1;
   width: 100%;
 }
 .card-cupcake {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 50px;
+  padding: 30px;
   text-align: left;
   background-color: #f1f1f1;
   width: 100%;
