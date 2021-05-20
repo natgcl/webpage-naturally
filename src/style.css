@@ -164,3 +164,7 @@ h3:hover {
   flex-direction: row;
   flex-wrap: wrap;
 }
+
+.pieces {
+  text-align: center;
+}
