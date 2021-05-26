@@ -10,6 +10,23 @@ body {
   color: white;
   background-color: #81b215;
 }
+a {
+  text-decoration: none;
+}
+.shoppingCart {
+  position: fixed;
+  font-size: 0;
+  top: 0;
+  right: 5%;
+}
+
+h1 {
+  padding: 80px;
+  text-align: center;
+  background: #81b215;
+  color: white;
+  font-family: Montserrat;
+}
 h2 {
   text-decoration: underline;
   font-family: Montserrat;
@@ -42,7 +59,8 @@ h3:hover {
 }
 .navbar {
   background-color: white;
-  border: 1px;
+  border: 30px;
+  border-width: 30px;
 }
 
 .navbar a {
@@ -160,14 +178,16 @@ h3:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 30px;
   text-align: left;
-  background-color: #f1f1f1;
+  background-color: white;
+  color: #3b965c;
   width: 100%;
 }
 .card-cupcake {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 30px;
   text-align: left;
-  background-color: #f1f1f1;
+  background-color: white;
+  color: #3b965c;
   width: 100%;
   right: 10px;
 }
