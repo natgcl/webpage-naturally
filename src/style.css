@@ -320,3 +320,14 @@ img {
     font-size: 50px;
   }
 }
+.whatsapp {
+  left: auto;
+  margin: auto;
+  border-radius: 6px;
+  background-color: green;
+  color: white;
+}
+
+.whatsapp:hover {
+  color: black;
+}
